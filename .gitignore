@@ -1,1 +1,6 @@
-*env
+# Ignore environment directories
+env/
+*/env/
+
+# Ignore Node.js modules
+node_modules/
