@@ -23,7 +23,7 @@ async function generateImage() {
     }, 300);
 
     try {
-        const response = await fetch('http://localhost:5000/generate-image', {
+        const response = await fetch('https://image-gen-1rs9.vercel.app/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ text: inputText })
